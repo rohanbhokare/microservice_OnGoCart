@@ -1,0 +1,14 @@
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/bin/Debug/netcoreapp2.2/ProductCatalogApi.deps.json
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/bin/Debug/netcoreapp2.2/ProductCatalogApi.runtimeconfig.json
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/bin/Debug/netcoreapp2.2/ProductCatalogApi.runtimeconfig.dev.json
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/bin/Debug/netcoreapp2.2/ProductCatalogApi.dll
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/bin/Debug/netcoreapp2.2/ProductCatalogApi.pdb
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.2/ProductCatalogApi.csprojAssemblyReference.cache
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.2/ProductCatalogApi.csproj.CoreCompileInputs.cache
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.2/ProductCatalogApi.RazorAssemblyInfo.cache
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.2/ProductCatalogApi.RazorAssemblyInfo.cs
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.2/ProductCatalogApi.AssemblyInfoInputs.cache
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.2/ProductCatalogApi.AssemblyInfo.cs
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.2/ProductCatalogApi.RazorTargetAssemblyInfo.cache
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.2/ProductCatalogApi.dll
+/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.2/ProductCatalogApi.pdb

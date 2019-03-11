@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Pics\shoes-15.png" />
+    <Content Remove="wwwroot\Pics\shoes-8.png" />
+    <Content Remove="wwwroot\Pics\shoes-10.png" />
+    <Content Remove="wwwroot\Pics\shoes-11.png" />
+    <Content Remove="wwwroot\Pics\shoes-13.png" />
+    <Content Remove="wwwroot\Pics\shoes-12.png" />
+    <Content Remove="wwwroot\Pics\shoes-3.png" />
+    <Content Remove="wwwroot\Pics\shoes-2.png" />
+    <Content Remove="wwwroot\Pics\shoes-1.png" />
+    <Content Remove="wwwroot\Pics\shoes-5.png" />
+    <Content Remove="wwwroot\Pics\shoes-4.png" />
+    <Content Remove="wwwroot\Pics\shoes-6.png" />
+    <Content Remove="wwwroot\Pics\shoes-7.png" />
+  </ItemGroup>
+</Project>
