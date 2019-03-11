@@ -33,6 +33,16 @@ namespace ProductCatalogApi
             services.AddDbContext<CatalogContext>(option => option.UseSqlServer(Configuration["ConnectionString"]));
             services.AddTransient<CatalogSeed>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddSwaggerGen(options =>
+            {
+                options.DescribeAllEnumsAsStrings();
+                options.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { 
+                    Title = "Microservice-OnGoCart Product Catalog HTTP API",
+                    Version = "v1",
+                    Description = "The Product Catalog Microservice Http API. This is the data driven/CRUD microservie sample",
+                    TermsOfService = "Terms of Service"
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +57,10 @@ namespace ProductCatalogApi
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 //app.UseHsts();
             }
+            app.UseSwagger()
+                .UseSwaggerUI(c => {
+                    c.SwaggerEndpoint($"/swagger/v1/swagger.json", "Product Catlog api version1 ");
+                  });
             //seed.SeedAsync();
             //app.UseHttpsRedirection();
             app.UseMvc();

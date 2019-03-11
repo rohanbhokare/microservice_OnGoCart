@@ -1,5 +1,10 @@
 ﻿<Properties StartupConfiguration="{133CCE22-B8D5-494B-BB20-43836690490B}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Services/ProductCatalogApi/Controllers/PicController.cs">
+    <Files>
+      <File FileName="src/Services/ProductCatalogApi/Controllers/ValuesController.cs" Line="16" Column="1" />
+      <File FileName="src/Services/ProductCatalogApi/Properties/launchSettings.json" Line="17" Column="48" />
+      <File FileName="src/Services/ProductCatalogApi/Controllers/PicController.cs" Line="9" Column="40" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -7,9 +12,10 @@
             <Node name="src" expanded="True">
               <Node name="Services" expanded="True">
                 <Node name="ProductCatalogApi" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="ViewModels" expanded="True" />
-                  <Node name="Startup.cs" selected="True" />
+                  <Node name="Controllers" expanded="True">
+                    <Node name="PicController.cs" selected="True" />
+                  </Node>
+                  <Node name="Properties" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -21,9 +27,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/rohan/Projects/Microservice/Ecommerce/OnGoCart/src/Services/ProductCatalogApi/Controllers/ValuesController.cs" relfile="src/Services/ProductCatalogApi/Controllers/ValuesController.cs" line="12" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.src.Services.ProductCatalogApi PreferredExecutionTarget="MonoDevelop.Default" />
